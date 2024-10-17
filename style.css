@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  top: 0;
+  position: sticky;
+}
+
+.nav-flex ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Quicksand";
+  color: #443782;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.container-jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  height: 600px;
+}
+
+.jumbotron-image {
+  width: 200px;
+  height: 195px;
+  border-radius: 1000px;
+}
+
+.jumbotron-name {
+  font-size: 24px;
+  font-family: "Quicksand";
+}
+
+.jumbotron-description {
+  font-size: 62px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.jumbotron-exdescription {
+  font-size: 18px;
+  font-family: "Quicksand";
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.content-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 130px;
+  gap: 134px;
+  height: 300px;
+}
+
+.about-name {
+  font-size: 42px;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.about-description {
+  font-size: 24px;
+  font-family: "Quicksand";
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 24px;
+  background-color: #cdc1ff;
+  color: #443782;
+  height: 80px;
+}
